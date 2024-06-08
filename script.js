@@ -12,6 +12,7 @@ document.getElementById('blowCandleButton').addEventListener('click', function()
     document.getElementById('cake').classList.add('hidden'); // Hide the cake
     this.classList.add('hidden'); // Hide the blow candle button
     document.getElementById('fireworks').style.backgroundImage = "url('birthday.gif')"; // Change the background image
+    document.getElementById('fireworks').style.height = '385px';
     startSlideshow(); // Start the slideshow
 });
 
@@ -33,5 +34,5 @@ function startSlideshow() {
     }
 
     showNextImage();
-    setInterval(showNextImage, 3000); // Change image every 3 seconds
+    setInterval(showNextImage, 2000); // Change image every 3 seconds
 }
