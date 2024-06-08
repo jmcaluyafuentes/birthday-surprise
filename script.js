@@ -11,6 +11,7 @@ document.getElementById('surpriseButton').addEventListener('click', function() {
 document.getElementById('blowCandleButton').addEventListener('click', function() {
     document.getElementById('cake').classList.add('hidden'); // Hide the cake
     this.classList.add('hidden'); // Hide the blow candle button
+    document.getElementById('fireworks').style.backgroundImage = "url('birthday.gif')"; // Change the background image
     startSlideshow(); // Start the slideshow
 });
 
