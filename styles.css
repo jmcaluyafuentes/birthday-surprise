@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: #ffffa7;
+    font-family: Roboto Slab;
+}
+
+.hidden {
+    display: none;
+}
+
+#fireworks {
+    width: 100%;
+    height: 300px;
+    background: url('fireworks.gif') no-repeat center center;
+    background-size: cover;
+    margin: 20px 0;
+}
+
+.cake-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cake {
+    width: 200px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e91e63;
+}
+
+#slideshow {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#slideshow img {
+    border-radius: 30px;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+.show {
+    display: block;
+}
